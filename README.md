@@ -15,7 +15,7 @@ lua main.lua
 
 Example of how to compile on Windows
 ```ps1
-g++ lua-bind.cpp -shared -fpic -L C:\path\to\lua.h -L -L C:\path\to\lauxlib.h -o terroo.dll
+g++ lua-bind.cpp -shared -fpic -L C:\path\to\lua.h -L C:\path\to\lauxlib.h -o terroo.dll
 lua main.lua
 ```
 
